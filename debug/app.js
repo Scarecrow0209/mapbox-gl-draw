@@ -18,7 +18,7 @@ const args = location.search.replace(/^\?/, '').split('&').reduce((o, param) => 
   return o;
 }, {});
 
-mapboxgl.accessToken = args.access_token || localStorage.accessToken;
+mapboxgl.accessToken = "pk.eyJ1Ijoic2NhcmVjcm93MTIzIiwiYSI6ImNrd2sxbTJuYTFueWcycW5zazYxdTEyanQifQ.cXBG5B2jq9-dzFCeAj4TaA";
 
 const map = new mapboxgl.Map({
   container: 'map',
